@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Mirror - Future of Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>DIGITAL   MIRROR </h1>
+        <div class="logo">
+            <img src="Logo.png" alt="Digital Mirror Logo">
+           
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section id="intro">
+            <h2>Welcome to the Future of Shopping</h2>
+            <p>Experience the convenience of trying on clothes virtually!</p>
+            <a href="#" class="btn">Try It Now</a>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Virtual Try-On: Try on clothes without changing.</li>
+                <li>Customization: Customize clothing colors and styles.</li>
+                <li>Interactive Interface: User-friendly design for seamless experience.</li>
+                <li>Real-Time Feedback: Get instant recommendations.</li>
+            </ul>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <ol>
+                <li>Stand in front of the digital mirror.</li>
+                <li>Select an item from the menu.</li>
+                <li>See yourself wearing the selected item in real-time!</li>
+                <li>Customize colors, sizes, and styles.</li>
+                <li>Save or share your virtual looks.</li>
+            </ol>
+        </section>
+
+        <!-- Image Gallery Section -->
+        <!-- Image Gallery Section -->
+<section id="gallery">
+    <h2>Explore Our Collection</h2>
+    <div class="image-grid">
+        <div class="gallery-item">
+            <h3> CLOTHING </h3>
+            <img src="clothing.png" alt="Clothing Item 1">
+        </div>
+        <div class="gallery-item">
+            <h3> JEWELLERIES</h3>
+            <img src="image2.png" alt="Accessories">
+        </div>
+        <div class="gallery-item">
+            <h3> SHOES</h3>
+            <img src="shoes.png" alt="Shoes">
+        </div>
+        <div class="gallery-item">
+            <h3> SUNGLASSES</h3>
+            <img src="image4.png" alt="Virtual Try-On">
+        </div>
+    </div>
+</section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder=" Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <textarea name="message" placeholder="Feedback" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Digital Mirror. All rights reserved.</p>
+            <ul class="social-icons">
+                <li><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="x_twitter-sixteen_nine.webp" alt="Twitter"></a></li>
+                <li><a href="#"><img src="instagram.avif" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
