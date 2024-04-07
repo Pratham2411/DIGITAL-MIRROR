@@ -1,0 +1,132 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, ol, li, img, button, input, textarea {
+    margin: 50;
+    padding: 50;
+    box-sizing: border-box;
+}
+h1{
+    text-align:center;
+    color:black;
+    font-size:xx-large;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color:aqua;
+}
+
+/* Header Styles */
+header {
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 1500px;
+    height: 600px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff504d;
+}
+
+/* Image Grid Styles */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #b0bf3f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    vertical-align: middle;
+}
